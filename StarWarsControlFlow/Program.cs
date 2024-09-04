@@ -14,6 +14,9 @@ namespace StarWarsControlFlow
             MyCharacter();
             MyShip();
             Console.ReadKey();
+            //I had to make some changes with the code since after I would input the ship,
+            //it would close and not print if it was Han Solo's ship or something else
+            //So I put the two parts of code into the main string and made the character and ship codes be in the static void
         }
 
         static void MyCharacter()
